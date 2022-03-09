@@ -1,0 +1,11 @@
+public class NumberConvertManager {
+    public static String decimal_to_binary(String decimal_str) {
+        return Integer.toBinaryString(Integer.parseInt(decimal_str));
+    }
+ 
+    public static void main(String[] args) {
+        String decimal_input = "2022";
+        String binary_output = decimal_to_binary(decimal_input);
+        System.out.println("binary result is:" + binary_output);
+    }
+}
